@@ -95,6 +95,7 @@ struct ContentView: View {
             }
             .onSubmit(of: .search, performSearch)
             .navigationTitle("Search")
+            .padding()
         }
     }
     
